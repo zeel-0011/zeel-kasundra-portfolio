@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Zeel<span class="accent"> Kasundra</span></div>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-item">About</a></li>
+            <li><a href="#skills" class="nav-item">Skills</a></li>
+            <li><a href="#experience" class="nav-item">Experience</a></li>
+            <li><a href="#projects" class="nav-item">Work</a></li>
+            
+            <li><a href="#contact" class="nav-contact-btn">Let's Talk</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container hero-container">
+            <div class="hero-text hidden-element slide-right">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Zeel <span class="accent">Kasundra</span></h1>
+                <h2 class="role">Android Developer</h2>
+                <p class="bio">
+                    I build scalable, high-performance Android applications using Kotlin and clean architecture, with a
+                    strong focus on real-world business solutions.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">
+                        View My Work <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="assets/Zeel_Kasundra_Android_Developer_Resume.pdf" target="_blank" download class="btn-secondary">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </div>
+
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/in/zeel-kasundra-91046a275" target="_blank" class="social-pill">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Connect on LinkedIn</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-profile hidden-element">
+                <div class="profile-card">
+                    <img src="assets/photo.jpg" alt="Profile Photo">
+                    <span class="profile-ring"></span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container hidden-element">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-wrapper">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I’m an Android Developer who loves turning complex ideas into practical, user-friendly mobile
+                        applications. With over 2 years of experience, I focus on building scalable Android apps using
+                        Kotlin, clean architecture, and modern development practices. I enjoy solving real-world
+                        problems and continuously improving my skills as an Android developer.
+                    </p>
+
+                    <p class="about-secondary">
+                        I am a passionate developer with expertise in
+                        <span class="highlight">Android Development (Kotlin/Java)</span>.
+                        I don’t just write code — I build solutions that users love to use,
+                        ensuring clean, maintainable, and high-performance applications.
+                    </p>
+                </div>
+
+                <!-- Single Stat Card -->
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container hidden-element">
+            <h2 class="section-title">My Tech Stack</h2>
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i class="fas fa-code accent-icon"></i>
+                    <h3 class="skill-title">Languages</h3>
+                    <p class="skill-desc">Kotlin, Java</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fab fa-android accent-icon"></i>
+                    <h3 class="skill-title">Android</h3>
+                    <p class="skill-desc">Android SDK, Native App Development, Architecture Components, Lifecycle
+                        Awareness</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush accent-icon"></i>
+                    <h3 class="skill-title">UI</h3>
+                    <p class="skill-desc">XML Layouts, Material Design Components, Animations</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-project-diagram accent-icon"></i>
+                    <h3 class="skill-title">Architecture</h3>
+                    <p class="skill-desc">MVVM, MVC, MVP</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-network-wired accent-icon"></i>
+                    <h3 class="skill-title">Networking & Async</h3>
+                    <p class="skill-desc">REST APIs (Retrofit), Coroutines, Flow, Socket Integration (Real-time
+                        Communication), Threading</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-database accent-icon"></i>
+                    <h3 class="skill-title">Data & Backend</h3>
+                    <p class="skill-desc">Room Database, Firebase (Auth, FCM, Firestore)</p>
+                </div>
+
+                <div class="skill-card">
+                    <i class="fas fa-tools accent-icon"></i>
+                    <h3 class="skill-title">Tools & Utilities</h3>
+                    <p class="skill-desc">Android Studio, Gradle, Git, Postman</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container hidden-element">
+            <h2 class="section-title">Career Timeline</h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time-header">
+                            <h3>Android Developer</h3>
+                            <span class="date">Nov 2023 – Present</span>
+                        </div>
+                        <span class="company">Qtonz Infosoft Pvt. Ltd., Rajkot</span>
+
+                        <ul class="job-description">
+                            <li>Developing Android applications from scratch using Kotlin and modern Android
+                                architecture.</li>
+                            <li>Implementing new features based on business and project requirements.</li>
+                            <li>Handling bug fixing, performance optimization, and API integration.</li>
+                            <li>Building responsive and user-friendly UI using XML and Material Design.</li>
+                            <li>Maintaining applications with regular updates and improvements.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="time-header">
+                            <h3>Android Developer Trainee</h3>
+                            <span class="date">Aug 2023 – Oct 2023</span>
+                        </div>
+                        <span class="company">Qtonz Infosoft Pvt. Ltd., Rajkot</span>
+
+                        <ul class="job-description">
+                            <li>Learned and implemented core Android concepts including services, permissions, and
+                                application lifecycle.</li>
+                            <li>Worked with REST APIs and backend integration.</li>
+                            <li>Assisted in UI development, bug fixing, and feature implementation.</li>
+                            <li>Gained hands-on experience with Kotlin, Android SDK, and Android best practices.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container hidden-element">
+            <h2 class="section-title">Featured Work</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="card-image map-theme">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header-row">
+                            <h3>Location Tracking App</h3>
+                            <span class="nda-badge">NDA</span>
+                        </div>
+                        <p class="project-summary">
+                            A real-time location sharing and communication platform built from scratch.
+                            Features robust background processing and live geofence alerts.
+                        </p>
+
+                        <ul class="project-key-features">
+                            <li><i class="fas fa-check"></i> Custom <strong>Geofencing</strong> (Entry/Exit Alerts)</li>
+                            <li><i class="fas fa-check"></i> <strong>Socket-based</strong> Real-time Chat</li>
+                            <li><i class="fas fa-check"></i> <strong>Foreground Services</strong> for Live Tracking</li>
+                            <li><i class="fas fa-check"></i> Deep Linking & Friend Management</li>
+                        </ul>
+
+                        <div class="tags">
+                            <span>Kotlin</span><span>Google Maps
+                                SDK</span><span>Socket.io</span><span>FCM</span><span>MVVM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image translator-theme">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header-row">
+                            <h3>Multilingual Translator</h3>
+                            <span class="nda-badge">NDA</span>
+                        </div>
+                        <p class="project-summary">
+                            A smart custom keyboard application enabling real-time translation and seamless multilingual
+                            typing.
+                        </p>
+
+                        <ul class="project-key-features">
+                            <li><i class="fas fa-check"></i> Custom <strong>Android Keyboard</strong>
+                                (InputMethodService)</li>
+                            <li><i class="fas fa-check"></i> Real-time <strong>In-Keyboard Translation</strong></li>
+                            <li><i class="fas fa-check"></i> <strong>Predictive Text</strong> & Auto-correction</li>
+                            <li><i class="fas fa-check"></i> Optimized Multilingual Input Handling</li>
+                        </ul>
+
+                        <div class="tags">
+                            <span>Kotlin</span><span>Java</span><span>Android SDK</span><span>XML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-image finance-theme">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <div class="card-info">
+                        <div class="card-header-row">
+                            <h3>Expense & Account Manager</h3>
+                            <span class="nda-badge">NDA</span>
+                        </div>
+                        <p class="project-summary">
+                            A comprehensive financial tool for managing business accounts, transactions, and generating
+                            PDF reports.
+                        </p>
+
+                        <ul class="project-key-features">
+                            <li><i class="fas fa-check"></i> <strong>Clean Architecture</strong> (MVVM + Hilt)</li>
+                            <li><i class="fas fa-check"></i> <strong>PDF Export</strong> & Financial Reports</li>
+                            <li><i class="fas fa-check"></i> <strong>Room DB</strong> with Backup/Restore</li>
+                            <li><i class="fas fa-check"></i> Multi-currency & Localization</li>
+                        </ul>
+
+                        <div class="tags">
+                            <span>Kotlin</span><span>Room</span><span>Coroutines</span><span>Hilt</span><span>Flow</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container hidden-element">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="achievement-card">
+                <div class="achievement-content">
+                    <div class="award-header">
+                        <div class="trophy-box">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <span class="award-year">2024</span>
+                    </div>
+
+                    <h3>Best Android Developer</h3>
+                    <h4 class="issuer">Qtonz Infosoft Pvt. Ltd.</h4>
+
+                    <p class="award-desc">
+                        Awarded in recognition of outstanding performance, technical excellence,
+                        and significant contributions to developing high-quality Android applications.
+                    </p>
+                </div>
+
+                <div class="achievement-image">
+                    <img src="assets/award.jpg" alt="Best Android Developer Award">
+                    <div class="image-overlay"></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container hidden-element">
+            <h2 class="section-title">Let's Connect</h2>
+            
+            <div class="contact-content-simple">
+                <p class="contact-text">
+                    I’m always open to discussing new opportunities, Android development projects, 
+                    or innovative app ideas.
+                    <br><br>
+                    If you’re looking for a dedicated Android developer or just want to connect, 
+                    feel free to reach out!
+                </p>
+
+                <div class="contact-links">
+                    <a href="mailto:zeelakasundra1@gmail.com" class="contact-btn">
+                        <i class="fas fa-envelope"></i> Email Me
+                    </a>
+                    <a href="https://www.linkedin.com/in/zeel-kasundra-91046a275" target="_blank" class="contact-btn">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="assets/Zeel_Kasundra_Android_Developer_Resume.pdf" target="_blank" download class="contact-btn">
+                        <i class="fas fa-file-download"></i> Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Zeel Kasundra. Built with passion & clean code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
